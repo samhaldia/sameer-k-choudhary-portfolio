@@ -1,0 +1,78 @@
+src/pages/About.css:
+/* src/pages/About.css */
+.about-section {
+  padding: 60px 0;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #2196F3; /* Blue title */
+}
+
+.about-content {
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.about-paragraph {
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: #424242; /* Darker gray */
+}
+
+.strengths-list {
+  list-style: disc;
+  padding-left: 25px;
+  margin-bottom: 25px;
+}
+
+.strengths-list li {
+  margin-bottom: 8px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.skill-tag {
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.95rem;
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Specific colors for skill tags */
+.skill-drupal { background-color: #E3F2FD; color: #1565C0; }
+.skill-acquia { background-color: #E8F5E9; color: #2E7D32; }
+.skill-aws { background-color: #FFF3E0; color: #FF6F00; }
+.skill-azure { background-color: #E0F2F7; color: #0277BD; }
+.skill-php { background-color: #EDE7F6; color: #673AB7; }
+.skill-react { background-color: #E0F7FA; color: #00838F; }
+.skill-python { background-color: #FBE9E7; color: #D84315; }
+.skill-devops { background-color: #FCE4EC; color: #AD1457; }
+.skill-sql { background-color: #EFEBE9; color: #5D4037; }
+.skill-kubernetes { background-color: #ECEFF1; color: #37474F; }
+.skill-compliance { background-color: #F1F8E9; color: #558B2F; }
+.skill-onetrust { background-color: #F3E5F5; color: #8E24AA; }

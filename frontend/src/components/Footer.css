@@ -1,0 +1,31 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #333; /* Dark background */
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.social-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #2196F3; /* Blue on hover */
+}

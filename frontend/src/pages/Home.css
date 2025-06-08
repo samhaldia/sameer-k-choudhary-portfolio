@@ -1,0 +1,55 @@
+/* src/pages/Home.css */
+.hero-section {
+  background: linear-gradient(to right, #2196F3, #673AB7); /* Blue to Purple gradient */
+  color: white;
+  text-align: center;
+  padding: 80px 20px; /* Adjust padding as needed */
+  min-height: calc(100vh - 120px); /* Adjust based on header/footer height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3.5rem; /* Large font size */
+  font-weight: 800; /* Extra bold */
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.hero-description {
+  font-size: 1.15rem;
+  margin-bottom: 40px;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: white;
+  color: #2196F3;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 50px; /* Fully rounded */
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-button:hover {
+  background-color: #E0E0E0; /* Slightly darker white */
+  transform: translateY(-3px); /* Subtle lift effect */
+}

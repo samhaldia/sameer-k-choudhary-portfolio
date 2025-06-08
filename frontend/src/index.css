@@ -1,0 +1,24 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333; /* Default text color */
+  background-color: #f4f4f4; /* Light background */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1; /* Allow main content to grow */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit color by default */
+}

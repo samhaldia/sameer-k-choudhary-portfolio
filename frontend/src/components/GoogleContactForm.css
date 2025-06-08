@@ -1,0 +1,39 @@
+/* src/components/GoogleContactForm.css */
+.contact-section {
+  padding: 50px 0;
+  background-color: #f9f9f9; /* Light background for the section */
+  color: #333;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2196F3; /* Blue title */
+}
+
+.contact-description {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.form-embed-wrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensures iframe corners are rounded */
+}
+
+.google-form-iframe {
+  border: none; /* Remove iframe border */
+  width: 100%;
+  display: block; /* Remove extra space below iframe */
+}
